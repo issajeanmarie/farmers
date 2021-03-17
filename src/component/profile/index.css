@@ -1,0 +1,34 @@
+.navProfile {
+  display: flex;
+  align-items: center;
+}
+
+.awesomityLogo {
+  display: flex;
+  align-items: center;
+}
+
+.awesomityLogo .imgCont {
+  width: 30px;
+  height: 30px;
+  margin: -10px 4px 0 0;
+}
+
+.awesomityLogo .imgCont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -40px;
+}
+
+.profile {
+  width: 100%;
+  height: 50px;
+  flex: 3;
+  position: relative;
+}
+
+.toggleBtn {
+  color: #000 !important;
+  margin: -10px 20px 0 0;
+}
