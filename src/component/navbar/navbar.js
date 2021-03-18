@@ -1,9 +1,9 @@
 import React from "react";
-import { Layout, Menu } from "antd";
+import { Layout } from "antd";
 import Profile from "../profile";
 import "./index.css";
 
-const { Header, Content } = Layout;
+const { Header } = Layout;
 
 const Navbar = ({ isCollapsed, setIsCollapsed }) => {
   return (
